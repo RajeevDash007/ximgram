@@ -52,7 +52,7 @@ export const login = async (req, res) => {
         delete user.password;
         res.status(200).json({token,user});
 
-        const token = jwt.sign({ id: user._id},"");
+        const token = jwt.sign({ id: user._id},"IamRajTheCoder");
     }catch(err){
         res.status(500).json({error: err.message});
     }
