@@ -53,7 +53,7 @@ app.use("/users",userRoutes);
 app.use("/posts",postRoutes);
 /* mongoose setup */
 const PORT = 3001 || 6001;
-mongoose.connect('mongodb+srv://dummyuser:Rajeev0057@cluster0.poel0rb.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
