@@ -25,7 +25,6 @@ const AdvertWidget = () => {
       />
       <FlexBetween>
         <Typography color={main}>Albert Einstein</Typography>
-       
       </FlexBetween>
       <Typography color={medium} m="0.5rem 0">
       "We cannot solve our problems with the same thinking we used when we created them."
